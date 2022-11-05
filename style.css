@@ -7,11 +7,12 @@ body {
     background-color: antiquewhite;
 }
 header {
+    font-weight: bold;
     display: flexbox;
-    margin-top: -22.5em;
-    margin-left: 0px;
+    margin-top: -21em;
+    margin-left: 5.5em;
     align-items: center;
-    display: inline-block;
+    /* display: inline-block; */
     justify-content: center;
     position: fixed;
     color: rgb(22, 22, 22);
@@ -19,25 +20,16 @@ header {
     height: 110px;
     font-size: 30px;
     padding-left: 36em;
-    padding-top: 20px;
+    padding-top: 60px;
     border: 0px solid;
     background-color: rgb(134, 121, 207);
 
 }
 
 
-/* .heading {
-    display: block;
-    margin-bottom: 350px;
-    margin-left: 0px;
-    padding-left: 4px;
-    margin-right: -470px;
-} */
-
 .card {
     border: 2px solid black;
     border-radius: 20px;
-    /* margin-left:157px ; */
     padding: 32px;
     width: 100%;
     max-width: 500px;
