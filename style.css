@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+header {
+    display: flexbox;
+    margin-top: -22.5em;
+    margin-left: 0px;
+    align-items: center;
+    display: inline-block;
+    justify-content: center;
+    position: fixed;
+    color: rgb(22, 22, 22);
+    width: 100%;
+    height: 110px;
+    font-size: 30px;
+    padding-left: 36em;
+    padding-top: 20px;
+    border: 0px solid;
+    background-color: rgb(134, 121, 207);
+
+}
+
+
+/* .heading {
+    display: block;
+    margin-bottom: 350px;
+    margin-left: 0px;
+    padding-left: 4px;
+    margin-right: -470px;
+} */
+
+.card {
+    border: 2px solid black;
+    border-radius: 20px;
+    /* margin-left:157px ; */
+    padding: 32px;
+    width: 100%;
+    max-width: 500px;
+
+}
+
+.btn {
+    border: 1px solid black;
+    border-radius: 20px;
+    color: black;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+span,
+h2 {
+    align-items: center;
+    text-align: center;
+}
+
+#YOU {
+    color: cyan;
+}
+
+#BOT {
+    color: rgb(238, 105, 105);
+}
+
+.btn:focus {
+    color: blue;
+}
+
+button:hover {
+    color: rgb(86, 90, 82);
+}
